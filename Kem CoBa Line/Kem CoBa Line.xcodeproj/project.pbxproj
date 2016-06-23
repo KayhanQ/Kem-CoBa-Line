@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1F2E6D81D1C19D000DF0E3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F2E6D71D1C19D000DF0E3F /* AppDelegate.swift */; };
+		F1F2E6DA1D1C19D000DF0E3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F2E6D91D1C19D000DF0E3F /* ViewController.swift */; };
+		F1F2E6DD1D1C19D000DF0E3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F2E6DB1D1C19D000DF0E3F /* Main.storyboard */; };
+		F1F2E6DF1D1C19D000DF0E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F2E6DE1D1C19D000DF0E3F /* Assets.xcassets */; };
+		F1F2E6E21D1C19D000DF0E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F2E6E01D1C19D000DF0E3F /* LaunchScreen.storyboard */; };
+		F1F2E6ED1D1C19D100DF0E3F /* Kem_CoBa_LineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F2E6EC1D1C19D100DF0E3F /* Kem_CoBa_LineTests.swift */; };
+		F1F2E6F81D1C19D100DF0E3F /* Kem_CoBa_LineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F2E6F71D1C19D100DF0E3F /* Kem_CoBa_LineUITests.swift */; };
+		F1F2E7061D1C23CC00DF0E3F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F2E7051D1C23CC00DF0E3F /* MainView.swift */; };
+		F1F2E70A1D1C2FA200DF0E3F /* storefront_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1F2E7091D1C2FA200DF0E3F /* storefront_1.gif */; };
+		F1F2E70C1D1C358D00DF0E3F /* koba_profile_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F2E70B1D1C358D00DF0E3F /* koba_profile_pic.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1F2E6E91D1C19D100DF0E3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1F2E6CC1D1C19CF00DF0E3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1F2E6D31D1C19D000DF0E3F;
+			remoteInfo = "Kem CoBa Line";
+		};
+		F1F2E6F41D1C19D100DF0E3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1F2E6CC1D1C19CF00DF0E3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1F2E6D31D1C19D000DF0E3F;
+			remoteInfo = "Kem CoBa Line";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1F2E6D41D1C19D000DF0E3F /* Kem CoBa Line.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kem CoBa Line.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F2E6D71D1C19D000DF0E3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1F2E6D91D1C19D000DF0E3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1F2E6DC1D1C19D000DF0E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1F2E6DE1D1C19D000DF0E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1F2E6E11D1C19D000DF0E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1F2E6E31D1C19D000DF0E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F2E6E81D1C19D100DF0E3F /* Kem CoBa LineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kem CoBa LineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F2E6EC1D1C19D100DF0E3F /* Kem_CoBa_LineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kem_CoBa_LineTests.swift; sourceTree = "<group>"; };
+		F1F2E6EE1D1C19D100DF0E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F2E6F31D1C19D100DF0E3F /* Kem CoBa LineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kem CoBa LineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F2E6F71D1C19D100DF0E3F /* Kem_CoBa_LineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kem_CoBa_LineUITests.swift; sourceTree = "<group>"; };
+		F1F2E6F91D1C19D100DF0E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F2E7051D1C23CC00DF0E3F /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F1F2E7091D1C2FA200DF0E3F /* storefront_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = storefront_1.gif; sourceTree = "<group>"; };
+		F1F2E70B1D1C358D00DF0E3F /* koba_profile_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = koba_profile_pic.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1F2E6D11D1C19D000DF0E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F2E6E51D1C19D100DF0E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F2E6F01D1C19D100DF0E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1F2E6CB1D1C19CF00DF0E3F = {
+			isa = PBXGroup;
+			children = (
+				F1F2E6D61D1C19D000DF0E3F /* Kem CoBa Line */,
+				F1F2E6EB1D1C19D100DF0E3F /* Kem CoBa LineTests */,
+				F1F2E6F61D1C19D100DF0E3F /* Kem CoBa LineUITests */,
+				F1F2E6D51D1C19D000DF0E3F /* Products */,
+				F1F2E7071D1C2F0A00DF0E3F /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		F1F2E6D51D1C19D000DF0E3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1F2E6D41D1C19D000DF0E3F /* Kem CoBa Line.app */,
+				F1F2E6E81D1C19D100DF0E3F /* Kem CoBa LineTests.xctest */,
+				F1F2E6F31D1C19D100DF0E3F /* Kem CoBa LineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1F2E6D61D1C19D000DF0E3F /* Kem CoBa Line */ = {
+			isa = PBXGroup;
+			children = (
+				F1F2E6D71D1C19D000DF0E3F /* AppDelegate.swift */,
+				F1F2E6D91D1C19D000DF0E3F /* ViewController.swift */,
+				F1F2E7051D1C23CC00DF0E3F /* MainView.swift */,
+				F1F2E6DB1D1C19D000DF0E3F /* Main.storyboard */,
+				F1F2E6DE1D1C19D000DF0E3F /* Assets.xcassets */,
+				F1F2E6E01D1C19D000DF0E3F /* LaunchScreen.storyboard */,
+				F1F2E6E31D1C19D000DF0E3F /* Info.plist */,
+			);
+			path = "Kem CoBa Line";
+			sourceTree = "<group>";
+		};
+		F1F2E6EB1D1C19D100DF0E3F /* Kem CoBa LineTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1F2E6EC1D1C19D100DF0E3F /* Kem_CoBa_LineTests.swift */,
+				F1F2E6EE1D1C19D100DF0E3F /* Info.plist */,
+			);
+			path = "Kem CoBa LineTests";
+			sourceTree = "<group>";
+		};
+		F1F2E6F61D1C19D100DF0E3F /* Kem CoBa LineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1F2E6F71D1C19D100DF0E3F /* Kem_CoBa_LineUITests.swift */,
+				F1F2E6F91D1C19D100DF0E3F /* Info.plist */,
+			);
+			path = "Kem CoBa LineUITests";
+			sourceTree = "<group>";
+		};
+		F1F2E7071D1C2F0A00DF0E3F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1F2E7081D1C2F2800DF0E3F /* Graphics */,
+			);
+			name = Resources;
+			path = "Kem CoBa Line";
+			sourceTree = "<group>";
+		};
+		F1F2E7081D1C2F2800DF0E3F /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				F1F2E70B1D1C358D00DF0E3F /* koba_profile_pic.png */,
+				F1F2E7091D1C2FA200DF0E3F /* storefront_1.gif */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1F2E6D31D1C19D000DF0E3F /* Kem CoBa Line */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1F2E6FC1D1C19D100DF0E3F /* Build configuration list for PBXNativeTarget "Kem CoBa Line" */;
+			buildPhases = (
+				F1F2E6D01D1C19D000DF0E3F /* Sources */,
+				F1F2E6D11D1C19D000DF0E3F /* Frameworks */,
+				F1F2E6D21D1C19D000DF0E3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kem CoBa Line";
+			productName = "Kem CoBa Line";
+			productReference = F1F2E6D41D1C19D000DF0E3F /* Kem CoBa Line.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1F2E6E71D1C19D100DF0E3F /* Kem CoBa LineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1F2E6FF1D1C19D100DF0E3F /* Build configuration list for PBXNativeTarget "Kem CoBa LineTests" */;
+			buildPhases = (
+				F1F2E6E41D1C19D100DF0E3F /* Sources */,
+				F1F2E6E51D1C19D100DF0E3F /* Frameworks */,
+				F1F2E6E61D1C19D100DF0E3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1F2E6EA1D1C19D100DF0E3F /* PBXTargetDependency */,
+			);
+			name = "Kem CoBa LineTests";
+			productName = "Kem CoBa LineTests";
+			productReference = F1F2E6E81D1C19D100DF0E3F /* Kem CoBa LineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1F2E6F21D1C19D100DF0E3F /* Kem CoBa LineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1F2E7021D1C19D100DF0E3F /* Build configuration list for PBXNativeTarget "Kem CoBa LineUITests" */;
+			buildPhases = (
+				F1F2E6EF1D1C19D100DF0E3F /* Sources */,
+				F1F2E6F01D1C19D100DF0E3F /* Frameworks */,
+				F1F2E6F11D1C19D100DF0E3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1F2E6F51D1C19D100DF0E3F /* PBXTargetDependency */,
+			);
+			name = "Kem CoBa LineUITests";
+			productName = "Kem CoBa LineUITests";
+			productReference = F1F2E6F31D1C19D100DF0E3F /* Kem CoBa LineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1F2E6CC1D1C19CF00DF0E3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Paddy Crab";
+				TargetAttributes = {
+					F1F2E6D31D1C19D000DF0E3F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					F1F2E6E71D1C19D100DF0E3F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F1F2E6D31D1C19D000DF0E3F;
+					};
+					F1F2E6F21D1C19D100DF0E3F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F1F2E6D31D1C19D000DF0E3F;
+					};
+				};
+			};
+			buildConfigurationList = F1F2E6CF1D1C19CF00DF0E3F /* Build configuration list for PBXProject "Kem CoBa Line" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1F2E6CB1D1C19CF00DF0E3F;
+			productRefGroup = F1F2E6D51D1C19D000DF0E3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1F2E6D31D1C19D000DF0E3F /* Kem CoBa Line */,
+				F1F2E6E71D1C19D100DF0E3F /* Kem CoBa LineTests */,
+				F1F2E6F21D1C19D100DF0E3F /* Kem CoBa LineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1F2E6D21D1C19D000DF0E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F2E6E21D1C19D000DF0E3F /* LaunchScreen.storyboard in Resources */,
+				F1F2E6DF1D1C19D000DF0E3F /* Assets.xcassets in Resources */,
+				F1F2E70A1D1C2FA200DF0E3F /* storefront_1.gif in Resources */,
+				F1F2E70C1D1C358D00DF0E3F /* koba_profile_pic.png in Resources */,
+				F1F2E6DD1D1C19D000DF0E3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F2E6E61D1C19D100DF0E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F2E6F11D1C19D100DF0E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1F2E6D01D1C19D000DF0E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F2E6DA1D1C19D000DF0E3F /* ViewController.swift in Sources */,
+				F1F2E7061D1C23CC00DF0E3F /* MainView.swift in Sources */,
+				F1F2E6D81D1C19D000DF0E3F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F2E6E41D1C19D100DF0E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F2E6ED1D1C19D100DF0E3F /* Kem_CoBa_LineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F2E6EF1D1C19D100DF0E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F2E6F81D1C19D100DF0E3F /* Kem_CoBa_LineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1F2E6EA1D1C19D100DF0E3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1F2E6D31D1C19D000DF0E3F /* Kem CoBa Line */;
+			targetProxy = F1F2E6E91D1C19D100DF0E3F /* PBXContainerItemProxy */;
+		};
+		F1F2E6F51D1C19D100DF0E3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1F2E6D31D1C19D000DF0E3F /* Kem CoBa Line */;
+			targetProxy = F1F2E6F41D1C19D100DF0E3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1F2E6DB1D1C19D000DF0E3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1F2E6DC1D1C19D000DF0E3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1F2E6E01D1C19D000DF0E3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1F2E6E11D1C19D000DF0E3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1F2E6FA1D1C19D100DF0E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1F2E6FB1D1C19D100DF0E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1F2E6FD1D1C19D100DF0E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kem CoBa Line/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paddycrab.Kem-CoBa-Line";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1F2E6FE1D1C19D100DF0E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kem CoBa Line/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paddycrab.Kem-CoBa-Line";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F1F2E7001D1C19D100DF0E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Kem CoBa LineTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paddycrab.Kem-CoBa-LineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kem CoBa Line.app/Kem CoBa Line";
+			};
+			name = Debug;
+		};
+		F1F2E7011D1C19D100DF0E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Kem CoBa LineTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paddycrab.Kem-CoBa-LineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kem CoBa Line.app/Kem CoBa Line";
+			};
+			name = Release;
+		};
+		F1F2E7031D1C19D100DF0E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Kem CoBa LineUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paddycrab.Kem-CoBa-LineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Kem CoBa Line";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F1F2E7041D1C19D100DF0E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Kem CoBa LineUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paddycrab.Kem-CoBa-LineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Kem CoBa Line";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1F2E6CF1D1C19CF00DF0E3F /* Build configuration list for PBXProject "Kem CoBa Line" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F2E6FA1D1C19D100DF0E3F /* Debug */,
+				F1F2E6FB1D1C19D100DF0E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1F2E6FC1D1C19D100DF0E3F /* Build configuration list for PBXNativeTarget "Kem CoBa Line" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F2E6FD1D1C19D100DF0E3F /* Debug */,
+				F1F2E6FE1D1C19D100DF0E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1F2E6FF1D1C19D100DF0E3F /* Build configuration list for PBXNativeTarget "Kem CoBa LineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F2E7001D1C19D100DF0E3F /* Debug */,
+				F1F2E7011D1C19D100DF0E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1F2E7021D1C19D100DF0E3F /* Build configuration list for PBXNativeTarget "Kem CoBa LineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F2E7031D1C19D100DF0E3F /* Debug */,
+				F1F2E7041D1C19D100DF0E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1F2E6CC1D1C19CF00DF0E3F /* Project object */;
+}
