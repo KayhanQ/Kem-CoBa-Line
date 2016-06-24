@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E29D140FD962C79F09C01CE /* Pods_Kem_CoBa_LineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B647C0EEA0A86E5C052F820D /* Pods_Kem_CoBa_LineTests.framework */; };
+		4BCB4E10DDC9C028A0C2AF18 /* Pods_Kem_CoBa_LineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BFD03060CABF3C589A6C4F /* Pods_Kem_CoBa_LineUITests.framework */; };
+		BCCFCF8BCB2C881391500444 /* Pods_Kem_CoBa_Line.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F195684C095251419F992D /* Pods_Kem_CoBa_Line.framework */; };
 		F1F2E6D81D1C19D000DF0E3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F2E6D71D1C19D000DF0E3F /* AppDelegate.swift */; };
 		F1F2E6DA1D1C19D000DF0E3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F2E6D91D1C19D000DF0E3F /* ViewController.swift */; };
 		F1F2E6DD1D1C19D000DF0E3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F2E6DB1D1C19D000DF0E3F /* Main.storyboard */; };
@@ -14,9 +17,13 @@
 		F1F2E6E21D1C19D000DF0E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F2E6E01D1C19D000DF0E3F /* LaunchScreen.storyboard */; };
 		F1F2E6ED1D1C19D100DF0E3F /* Kem_CoBa_LineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F2E6EC1D1C19D100DF0E3F /* Kem_CoBa_LineTests.swift */; };
 		F1F2E6F81D1C19D100DF0E3F /* Kem_CoBa_LineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F2E6F71D1C19D100DF0E3F /* Kem_CoBa_LineUITests.swift */; };
-		F1F2E7061D1C23CC00DF0E3F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F2E7051D1C23CC00DF0E3F /* MainView.swift */; };
+		F1F2E7061D1C23CC00DF0E3F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F2E7051D1C23CC00DF0E3F /* MainViewController.swift */; };
 		F1F2E70A1D1C2FA200DF0E3F /* storefront_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1F2E7091D1C2FA200DF0E3F /* storefront_1.gif */; };
 		F1F2E70C1D1C358D00DF0E3F /* koba_profile_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F2E70B1D1C358D00DF0E3F /* koba_profile_pic.png */; };
+		F1F2E70E1D1C438800DF0E3F /* PeoplePopulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F2E70D1D1C438800DF0E3F /* PeoplePopulator.swift */; };
+		F1F2E7101D1C4AB100DF0E3F /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F2E70F1D1C4AB100DF0E3F /* person.png */; };
+		F1F2E7121D1C77F000DF0E3F /* man.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1F2E7111D1C77F000DF0E3F /* man.gif */; };
+		F1F2E7151D1CBD7F00DF0E3F /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F2E7141D1CBD7F00DF0E3F /* CGFloat+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10351EE40F995CAFA2B3D817 /* Pods-Kem CoBa LineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kem CoBa LineUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kem CoBa LineUITests/Pods-Kem CoBa LineUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		44266145AA1376856D556A2C /* Pods-Kem CoBa LineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kem CoBa LineTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kem CoBa LineTests/Pods-Kem CoBa LineTests.release.xcconfig"; sourceTree = "<group>"; };
+		57F175527BB0A9C50AE4CF65 /* Pods-Kem CoBa Line.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kem CoBa Line.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kem CoBa Line/Pods-Kem CoBa Line.release.xcconfig"; sourceTree = "<group>"; };
+		63F195684C095251419F992D /* Pods_Kem_CoBa_Line.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kem_CoBa_Line.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BFD03060CABF3C589A6C4F /* Pods_Kem_CoBa_LineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kem_CoBa_LineUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A56DF2D3CF5CC5DC369EAC /* Pods-Kem CoBa LineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kem CoBa LineTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kem CoBa LineTests/Pods-Kem CoBa LineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B647C0EEA0A86E5C052F820D /* Pods_Kem_CoBa_LineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kem_CoBa_LineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43BD4F5CD25C0D73FB9887D /* Pods-Kem CoBa Line.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kem CoBa Line.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kem CoBa Line/Pods-Kem CoBa Line.debug.xcconfig"; sourceTree = "<group>"; };
+		F180D32582655EA0651DE939 /* Pods-Kem CoBa LineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kem CoBa LineUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kem CoBa LineUITests/Pods-Kem CoBa LineUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F1F2E6D41D1C19D000DF0E3F /* Kem CoBa Line.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kem CoBa Line.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F2E6D71D1C19D000DF0E3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1F2E6D91D1C19D000DF0E3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,9 +66,13 @@
 		F1F2E6F31D1C19D100DF0E3F /* Kem CoBa LineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kem CoBa LineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F2E6F71D1C19D100DF0E3F /* Kem_CoBa_LineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kem_CoBa_LineUITests.swift; sourceTree = "<group>"; };
 		F1F2E6F91D1C19D100DF0E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1F2E7051D1C23CC00DF0E3F /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F1F2E7051D1C23CC00DF0E3F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F1F2E7091D1C2FA200DF0E3F /* storefront_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = storefront_1.gif; sourceTree = "<group>"; };
 		F1F2E70B1D1C358D00DF0E3F /* koba_profile_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = koba_profile_pic.png; sourceTree = "<group>"; };
+		F1F2E70D1D1C438800DF0E3F /* PeoplePopulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeoplePopulator.swift; sourceTree = "<group>"; };
+		F1F2E70F1D1C4AB100DF0E3F /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
+		F1F2E7111D1C77F000DF0E3F /* man.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = man.gif; sourceTree = "<group>"; };
+		F1F2E7141D1CBD7F00DF0E3F /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCCFCF8BCB2C881391500444 /* Pods_Kem_CoBa_Line.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E29D140FD962C79F09C01CE /* Pods_Kem_CoBa_LineTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BCB4E10DDC9C028A0C2AF18 /* Pods_Kem_CoBa_LineUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		864F03BA542F91B7CC5BB643 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D43BD4F5CD25C0D73FB9887D /* Pods-Kem CoBa Line.debug.xcconfig */,
+				57F175527BB0A9C50AE4CF65 /* Pods-Kem CoBa Line.release.xcconfig */,
+				73A56DF2D3CF5CC5DC369EAC /* Pods-Kem CoBa LineTests.debug.xcconfig */,
+				44266145AA1376856D556A2C /* Pods-Kem CoBa LineTests.release.xcconfig */,
+				10351EE40F995CAFA2B3D817 /* Pods-Kem CoBa LineUITests.debug.xcconfig */,
+				F180D32582655EA0651DE939 /* Pods-Kem CoBa LineUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBCD6465BBFD49FABAF76735 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63F195684C095251419F992D /* Pods_Kem_CoBa_Line.framework */,
+				B647C0EEA0A86E5C052F820D /* Pods_Kem_CoBa_LineTests.framework */,
+				71BFD03060CABF3C589A6C4F /* Pods_Kem_CoBa_LineUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F1F2E6CB1D1C19CF00DF0E3F = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +134,8 @@
 				F1F2E6F61D1C19D100DF0E3F /* Kem CoBa LineUITests */,
 				F1F2E6D51D1C19D000DF0E3F /* Products */,
 				F1F2E7071D1C2F0A00DF0E3F /* Resources */,
+				864F03BA542F91B7CC5BB643 /* Pods */,
+				EBCD6465BBFD49FABAF76735 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,11 +154,13 @@
 			children = (
 				F1F2E6D71D1C19D000DF0E3F /* AppDelegate.swift */,
 				F1F2E6D91D1C19D000DF0E3F /* ViewController.swift */,
-				F1F2E7051D1C23CC00DF0E3F /* MainView.swift */,
+				F1F2E7051D1C23CC00DF0E3F /* MainViewController.swift */,
+				F1F2E70D1D1C438800DF0E3F /* PeoplePopulator.swift */,
 				F1F2E6DB1D1C19D000DF0E3F /* Main.storyboard */,
 				F1F2E6DE1D1C19D000DF0E3F /* Assets.xcassets */,
 				F1F2E6E01D1C19D000DF0E3F /* LaunchScreen.storyboard */,
 				F1F2E6E31D1C19D000DF0E3F /* Info.plist */,
+				F1F2E7131D1CBD6900DF0E3F /* Helpers */,
 			);
 			path = "Kem CoBa Line";
 			sourceTree = "<group>";
@@ -146,9 +196,19 @@
 			isa = PBXGroup;
 			children = (
 				F1F2E70B1D1C358D00DF0E3F /* koba_profile_pic.png */,
+				F1F2E7111D1C77F000DF0E3F /* man.gif */,
 				F1F2E7091D1C2FA200DF0E3F /* storefront_1.gif */,
+				F1F2E70F1D1C4AB100DF0E3F /* person.png */,
 			);
 			name = Graphics;
+			sourceTree = "<group>";
+		};
+		F1F2E7131D1CBD6900DF0E3F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F1F2E7141D1CBD7F00DF0E3F /* CGFloat+Extensions.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1F2E6FC1D1C19D100DF0E3F /* Build configuration list for PBXNativeTarget "Kem CoBa Line" */;
 			buildPhases = (
+				5DC95FCA3869C61E0F6636EB /* [CP] Check Pods Manifest.lock */,
 				F1F2E6D01D1C19D000DF0E3F /* Sources */,
 				F1F2E6D11D1C19D000DF0E3F /* Frameworks */,
 				F1F2E6D21D1C19D000DF0E3F /* Resources */,
+				C359803CFB4B775EEB86DFFC /* [CP] Embed Pods Frameworks */,
+				9FF9D7C6F94F2A87A979C707 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1F2E6FF1D1C19D100DF0E3F /* Build configuration list for PBXNativeTarget "Kem CoBa LineTests" */;
 			buildPhases = (
+				5B9F0E499C5E7FC228AB30CF /* [CP] Check Pods Manifest.lock */,
 				F1F2E6E41D1C19D100DF0E3F /* Sources */,
 				F1F2E6E51D1C19D100DF0E3F /* Frameworks */,
 				F1F2E6E61D1C19D100DF0E3F /* Resources */,
+				67FA1D9F21E57C1B963DA3E0 /* [CP] Embed Pods Frameworks */,
+				E6EC71F4050A3C498CBA6F4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1F2E7021D1C19D100DF0E3F /* Build configuration list for PBXNativeTarget "Kem CoBa LineUITests" */;
 			buildPhases = (
+				DA5E45C6F836DD2BBCD8809A /* [CP] Check Pods Manifest.lock */,
 				F1F2E6EF1D1C19D100DF0E3F /* Sources */,
 				F1F2E6F01D1C19D100DF0E3F /* Frameworks */,
 				F1F2E6F11D1C19D100DF0E3F /* Resources */,
+				8C03A1DCC02029AA20D971FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,7 +325,9 @@
 			files = (
 				F1F2E6E21D1C19D000DF0E3F /* LaunchScreen.storyboard in Resources */,
 				F1F2E6DF1D1C19D000DF0E3F /* Assets.xcassets in Resources */,
+				F1F2E7121D1C77F000DF0E3F /* man.gif in Resources */,
 				F1F2E70A1D1C2FA200DF0E3F /* storefront_1.gif in Resources */,
+				F1F2E7101D1C4AB100DF0E3F /* person.png in Resources */,
 				F1F2E70C1D1C358D00DF0E3F /* koba_profile_pic.png in Resources */,
 				F1F2E6DD1D1C19D000DF0E3F /* Main.storyboard in Resources */,
 			);
@@ -279,14 +349,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B9F0E499C5E7FC228AB30CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DC95FCA3869C61E0F6636EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		67FA1D9F21E57C1B963DA3E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kem CoBa LineTests/Pods-Kem CoBa LineTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C03A1DCC02029AA20D971FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kem CoBa LineUITests/Pods-Kem CoBa LineUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FF9D7C6F94F2A87A979C707 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kem CoBa Line/Pods-Kem CoBa Line-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C359803CFB4B775EEB86DFFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kem CoBa Line/Pods-Kem CoBa Line-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA5E45C6F836DD2BBCD8809A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6EC71F4050A3C498CBA6F4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kem CoBa LineTests/Pods-Kem CoBa LineTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F1F2E6D01D1C19D000DF0E3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F1F2E6DA1D1C19D000DF0E3F /* ViewController.swift in Sources */,
-				F1F2E7061D1C23CC00DF0E3F /* MainView.swift in Sources */,
+				F1F2E7151D1CBD7F00DF0E3F /* CGFloat+Extensions.swift in Sources */,
+				F1F2E7061D1C23CC00DF0E3F /* MainViewController.swift in Sources */,
 				F1F2E6D81D1C19D000DF0E3F /* AppDelegate.swift in Sources */,
+				F1F2E70E1D1C438800DF0E3F /* PeoplePopulator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +621,7 @@
 		};
 		F1F2E6FD1D1C19D100DF0E3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43BD4F5CD25C0D73FB9887D /* Pods-Kem CoBa Line.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Kem CoBa Line/Info.plist";
@@ -437,6 +633,7 @@
 		};
 		F1F2E6FE1D1C19D100DF0E3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57F175527BB0A9C50AE4CF65 /* Pods-Kem CoBa Line.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Kem CoBa Line/Info.plist";
@@ -448,6 +645,7 @@
 		};
 		F1F2E7001D1C19D100DF0E3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73A56DF2D3CF5CC5DC369EAC /* Pods-Kem CoBa LineTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Kem CoBa LineTests/Info.plist";
@@ -460,6 +658,7 @@
 		};
 		F1F2E7011D1C19D100DF0E3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44266145AA1376856D556A2C /* Pods-Kem CoBa LineTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Kem CoBa LineTests/Info.plist";
@@ -472,6 +671,7 @@
 		};
 		F1F2E7031D1C19D100DF0E3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10351EE40F995CAFA2B3D817 /* Pods-Kem CoBa LineUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Kem CoBa LineUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +684,7 @@
 		};
 		F1F2E7041D1C19D100DF0E3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F180D32582655EA0651DE939 /* Pods-Kem CoBa LineUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Kem CoBa LineUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -513,6 +714,7 @@
 				F1F2E6FE1D1C19D100DF0E3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1F2E6FF1D1C19D100DF0E3F /* Build configuration list for PBXNativeTarget "Kem CoBa LineTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +723,7 @@
 				F1F2E7011D1C19D100DF0E3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1F2E7021D1C19D100DF0E3F /* Build configuration list for PBXNativeTarget "Kem CoBa LineUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +732,7 @@
 				F1F2E7041D1C19D100DF0E3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

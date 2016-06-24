@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		161358618677B1D18D8C601647C947E6 /* Pods-Kem CoBa LineUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4640FB79BF40216486C0DCFC9F1D0A83 /* Pods-Kem CoBa LineUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A3AA1C85DBB5EE272C2B09BD9E120C9 /* Pods-Kem CoBa LineTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BDB76AA2A34F6DF94F47325235FA96 /* Pods-Kem CoBa LineTests-dummy.m */; };
+		1A4557523AA4B657E81F96BFEDC51D9A /* SwiftGifOrigin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4196D8AF155DA5471346375971BE66 /* SwiftGifOrigin-dummy.m */; };
+		1E81BFC891C042C260E987D522528877 /* Pods-Kem CoBa Line-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA247A0A7918EEB00042F4F528345B2 /* Pods-Kem CoBa Line-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		264DE274F4F823501227BA0FE5A174F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		31D4E9141F08D64B133AC1CE921A4669 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38D269B98B57E56040F729F7EB45A57 /* UIImage+Gif.swift */; };
+		3F67618894AABA34BBCABAF3CA8AEA1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		54CB5E27BE6592600E1AB1ACF5C8E231 /* Pods-Kem CoBa LineTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41758DABFD7DCBD3A736CF805E54148A /* Pods-Kem CoBa LineTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A708BEA9753D2EF68E98380F459416E /* Pods-Kem CoBa Line-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD53032837205FE090C818956BCC126E /* Pods-Kem CoBa Line-dummy.m */; };
+		7A8063453D656930C450BF5520C1C323 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9197EBDA9C48655C2CB7D78FF5679D10 /* Pods-Kem CoBa LineUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39818939BACC8D8D2C9076A5EA805329 /* Pods-Kem CoBa LineUITests-dummy.m */; };
+		9BAEA21E776D4A90AF5E658D2303F9B0 /* SwiftGifOrigin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A79597D7691CDD2E78B165697E47D33 /* SwiftGifOrigin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5A13C7E91DFC0A7E00C2A5E721F2DB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		952CAB25FD3E7591465221CDE739E89E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B77DBF3219DD436009D6045F5339661;
+			remoteInfo = SwiftGifOrigin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029DBC858FA7FC774DEAC8547FF21D82 /* Pods_Kem_CoBa_LineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kem_CoBa_LineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		051DC7190470669BC769921DAA981F13 /* Pods-Kem CoBa Line-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kem CoBa Line-acknowledgements.plist"; sourceTree = "<group>"; };
+		0564F2D2BD4FA053F223A0381EBDD1C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F2F48DE1BCA8D3ABACDF11E9BD6E70 /* Pods-Kem CoBa LineUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kem CoBa LineUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A79597D7691CDD2E78B165697E47D33 /* SwiftGifOrigin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGifOrigin-umbrella.h"; sourceTree = "<group>"; };
+		0C907120A7715AB90284F3F20C89C58C /* SwiftGifOrigin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGifOrigin-prefix.pch"; sourceTree = "<group>"; };
+		18F7892E254A6A588AB94E73036B83A9 /* Pods-Kem CoBa Line-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kem CoBa Line-frameworks.sh"; sourceTree = "<group>"; };
+		1BEAFA5864675E1418B74BEC06F67354 /* Pods-Kem CoBa LineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kem CoBa LineUITests.release.xcconfig"; sourceTree = "<group>"; };
+		208A340669CF9F9C87F12784F854A6AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25E8118A4C0000666B4549DAA5D53316 /* Pods-Kem CoBa LineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kem CoBa LineTests.release.xcconfig"; sourceTree = "<group>"; };
+		31CA7653C37037097CF875C51235B93B /* Pods-Kem CoBa Line.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kem CoBa Line.release.xcconfig"; sourceTree = "<group>"; };
+		39818939BACC8D8D2C9076A5EA805329 /* Pods-Kem CoBa LineUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kem CoBa LineUITests-dummy.m"; sourceTree = "<group>"; };
+		41758DABFD7DCBD3A736CF805E54148A /* Pods-Kem CoBa LineTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kem CoBa LineTests-umbrella.h"; sourceTree = "<group>"; };
+		4287E9362B892F02197CF42005DE3637 /* Pods-Kem CoBa LineTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kem CoBa LineTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45DC7D3E4D490044FA35C7421992548E /* Pods-Kem CoBa LineUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kem CoBa LineUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4640FB79BF40216486C0DCFC9F1D0A83 /* Pods-Kem CoBa LineUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kem CoBa LineUITests-umbrella.h"; sourceTree = "<group>"; };
+		4C48965C072D4867755927D080EF0E68 /* Pods-Kem CoBa Line-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kem CoBa Line-resources.sh"; sourceTree = "<group>"; };
+		5F82892FA6028D0F84BB9EC798A2E7CE /* SwiftGifOrigin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftGifOrigin.modulemap; sourceTree = "<group>"; };
+		62E56C145A1EE94EB35223059EFF4F73 /* Pods-Kem CoBa LineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kem CoBa LineUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		63E7343B4623BF9ACC81098BFF577B13 /* SwiftGifOrigin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGifOrigin.xcconfig; sourceTree = "<group>"; };
+		734C028CF8D21F714F23DD864D54A8D8 /* Pods-Kem CoBa Line-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kem CoBa Line-acknowledgements.markdown"; sourceTree = "<group>"; };
+		772627B8C907F857E26398194979672E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB8F8B9BED0933177737A2FAAE32B5B /* Pods-Kem CoBa LineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kem CoBa LineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81915EFB7D05F45A396A549E6828857D /* Pods-Kem CoBa LineUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Kem CoBa LineUITests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A38D269B98B57E56040F729F7EB45A57 /* UIImage+Gif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Gif.swift"; path = "SwiftGifCommon/UIImage+Gif.swift"; sourceTree = "<group>"; };
+		A443D87A69F1A863B24AF2845D457543 /* Pods-Kem CoBa LineTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kem CoBa LineTests-resources.sh"; sourceTree = "<group>"; };
+		B3B61B21B6954999BC1CEDE8B0D466FD /* Pods-Kem CoBa LineTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kem CoBa LineTests-frameworks.sh"; sourceTree = "<group>"; };
+		C1AFBC561568162DD4E90A49A7693855 /* SwiftGifOrigin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftGifOrigin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8FEB0468515FB077463C300828F8CCF /* Pods-Kem CoBa LineTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Kem CoBa LineTests.modulemap"; sourceTree = "<group>"; };
+		CBA247A0A7918EEB00042F4F528345B2 /* Pods-Kem CoBa Line-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kem CoBa Line-umbrella.h"; sourceTree = "<group>"; };
+		CCA99ECA827CE15ADAB24F9CBEEBDE57 /* Pods_Kem_CoBa_LineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kem_CoBa_LineUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF32C0F388AEB09A67F32D141280545C /* Pods-Kem CoBa LineUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kem CoBa LineUITests-resources.sh"; sourceTree = "<group>"; };
+		D37FF045BB072065D2F880803366B67E /* Pods-Kem CoBa Line.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Kem CoBa Line.modulemap"; sourceTree = "<group>"; };
+		D6E3480C5E8EE3658293AB05727DF1AF /* Pods-Kem CoBa LineTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kem CoBa LineTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBF574524F9A676DC74C5B8856D7CE48 /* Pods-Kem CoBa LineUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kem CoBa LineUITests-frameworks.sh"; sourceTree = "<group>"; };
+		DD53032837205FE090C818956BCC126E /* Pods-Kem CoBa Line-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kem CoBa Line-dummy.m"; sourceTree = "<group>"; };
+		E461E229FE65A061B28E6F91457105EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A662DAE02887EA5AEABD250806DB3C /* Pods_Kem_CoBa_Line.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kem_CoBa_Line.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BDB76AA2A34F6DF94F47325235FA96 /* Pods-Kem CoBa LineTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kem CoBa LineTests-dummy.m"; sourceTree = "<group>"; };
+		FA4196D8AF155DA5471346375971BE66 /* SwiftGifOrigin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftGifOrigin-dummy.m"; sourceTree = "<group>"; };
+		FC07348677197C7B7FD76CC594ABC8FE /* Pods-Kem CoBa Line.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kem CoBa Line.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50E54BB1B25EEAC74D03F16E6F1DF59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F67618894AABA34BBCABAF3CA8AEA1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F557EA9EBEF4B1FC235571A78FEC92F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8063453D656930C450BF5520C1C323 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD764231B9C13E8086BEC0F46D703C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264DE274F4F823501227BA0FE5A174F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4513DD58C259F0C8E40436F37F65B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A13C7E91DFC0A7E00C2A5E721F2DB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05B3950E5A58ED8FF2BECFC6E94E7D15 /* Pods-Kem CoBa LineTests */ = {
+			isa = PBXGroup;
+			children = (
+				0564F2D2BD4FA053F223A0381EBDD1C1 /* Info.plist */,
+				C8FEB0468515FB077463C300828F8CCF /* Pods-Kem CoBa LineTests.modulemap */,
+				4287E9362B892F02197CF42005DE3637 /* Pods-Kem CoBa LineTests-acknowledgements.markdown */,
+				D6E3480C5E8EE3658293AB05727DF1AF /* Pods-Kem CoBa LineTests-acknowledgements.plist */,
+				F3BDB76AA2A34F6DF94F47325235FA96 /* Pods-Kem CoBa LineTests-dummy.m */,
+				B3B61B21B6954999BC1CEDE8B0D466FD /* Pods-Kem CoBa LineTests-frameworks.sh */,
+				A443D87A69F1A863B24AF2845D457543 /* Pods-Kem CoBa LineTests-resources.sh */,
+				41758DABFD7DCBD3A736CF805E54148A /* Pods-Kem CoBa LineTests-umbrella.h */,
+				7DB8F8B9BED0933177737A2FAAE32B5B /* Pods-Kem CoBa LineTests.debug.xcconfig */,
+				25E8118A4C0000666B4549DAA5D53316 /* Pods-Kem CoBa LineTests.release.xcconfig */,
+			);
+			name = "Pods-Kem CoBa LineTests";
+			path = "Target Support Files/Pods-Kem CoBa LineTests";
+			sourceTree = "<group>";
+		};
+		1FD8CE5DEB17C1C76F236ADF231BD040 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				772627B8C907F857E26398194979672E /* Info.plist */,
+				5F82892FA6028D0F84BB9EC798A2E7CE /* SwiftGifOrigin.modulemap */,
+				63E7343B4623BF9ACC81098BFF577B13 /* SwiftGifOrigin.xcconfig */,
+				FA4196D8AF155DA5471346375971BE66 /* SwiftGifOrigin-dummy.m */,
+				0C907120A7715AB90284F3F20C89C58C /* SwiftGifOrigin-prefix.pch */,
+				0A79597D7691CDD2E78B165697E47D33 /* SwiftGifOrigin-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftGifOrigin";
+			sourceTree = "<group>";
+		};
+		26699727C250983FF494AD0DE3CFBC88 /* SwiftGifOrigin */ = {
+			isa = PBXGroup;
+			children = (
+				A38D269B98B57E56040F729F7EB45A57 /* UIImage+Gif.swift */,
+				1FD8CE5DEB17C1C76F236ADF231BD040 /* Support Files */,
+			);
+			path = SwiftGifOrigin;
+			sourceTree = "<group>";
+		};
+		38EED2F6A4F6D3B4892D6F236840399A /* Pods-Kem CoBa LineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E461E229FE65A061B28E6F91457105EA /* Info.plist */,
+				81915EFB7D05F45A396A549E6828857D /* Pods-Kem CoBa LineUITests.modulemap */,
+				45DC7D3E4D490044FA35C7421992548E /* Pods-Kem CoBa LineUITests-acknowledgements.markdown */,
+				07F2F48DE1BCA8D3ABACDF11E9BD6E70 /* Pods-Kem CoBa LineUITests-acknowledgements.plist */,
+				39818939BACC8D8D2C9076A5EA805329 /* Pods-Kem CoBa LineUITests-dummy.m */,
+				DBF574524F9A676DC74C5B8856D7CE48 /* Pods-Kem CoBa LineUITests-frameworks.sh */,
+				CF32C0F388AEB09A67F32D141280545C /* Pods-Kem CoBa LineUITests-resources.sh */,
+				4640FB79BF40216486C0DCFC9F1D0A83 /* Pods-Kem CoBa LineUITests-umbrella.h */,
+				62E56C145A1EE94EB35223059EFF4F73 /* Pods-Kem CoBa LineUITests.debug.xcconfig */,
+				1BEAFA5864675E1418B74BEC06F67354 /* Pods-Kem CoBa LineUITests.release.xcconfig */,
+			);
+			name = "Pods-Kem CoBa LineUITests";
+			path = "Target Support Files/Pods-Kem CoBa LineUITests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CBDE1A1234E4B1D43F65A57BED38E87C /* Pods */,
+				922C1D4D4619D2051B9A8E25EB5D0406 /* Products */,
+				91F832DC555988B80C82AB65C9B3179B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		91F832DC555988B80C82AB65C9B3179B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2BC2DD6CD214BA4E47D820EC874EFBA /* Pods-Kem CoBa Line */,
+				05B3950E5A58ED8FF2BECFC6E94E7D15 /* Pods-Kem CoBa LineTests */,
+				38EED2F6A4F6D3B4892D6F236840399A /* Pods-Kem CoBa LineUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		922C1D4D4619D2051B9A8E25EB5D0406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3A662DAE02887EA5AEABD250806DB3C /* Pods_Kem_CoBa_Line.framework */,
+				029DBC858FA7FC774DEAC8547FF21D82 /* Pods_Kem_CoBa_LineTests.framework */,
+				CCA99ECA827CE15ADAB24F9CBEEBDE57 /* Pods_Kem_CoBa_LineUITests.framework */,
+				C1AFBC561568162DD4E90A49A7693855 /* SwiftGifOrigin.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2BC2DD6CD214BA4E47D820EC874EFBA /* Pods-Kem CoBa Line */ = {
+			isa = PBXGroup;
+			children = (
+				208A340669CF9F9C87F12784F854A6AA /* Info.plist */,
+				D37FF045BB072065D2F880803366B67E /* Pods-Kem CoBa Line.modulemap */,
+				734C028CF8D21F714F23DD864D54A8D8 /* Pods-Kem CoBa Line-acknowledgements.markdown */,
+				051DC7190470669BC769921DAA981F13 /* Pods-Kem CoBa Line-acknowledgements.plist */,
+				DD53032837205FE090C818956BCC126E /* Pods-Kem CoBa Line-dummy.m */,
+				18F7892E254A6A588AB94E73036B83A9 /* Pods-Kem CoBa Line-frameworks.sh */,
+				4C48965C072D4867755927D080EF0E68 /* Pods-Kem CoBa Line-resources.sh */,
+				CBA247A0A7918EEB00042F4F528345B2 /* Pods-Kem CoBa Line-umbrella.h */,
+				FC07348677197C7B7FD76CC594ABC8FE /* Pods-Kem CoBa Line.debug.xcconfig */,
+				31CA7653C37037097CF875C51235B93B /* Pods-Kem CoBa Line.release.xcconfig */,
+			);
+			name = "Pods-Kem CoBa Line";
+			path = "Target Support Files/Pods-Kem CoBa Line";
+			sourceTree = "<group>";
+		};
+		CBDE1A1234E4B1D43F65A57BED38E87C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26699727C250983FF494AD0DE3CFBC88 /* SwiftGifOrigin */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00E800A799459843D094A6F81FD2ACEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CB5E27BE6592600E1AB1ACF5C8E231 /* Pods-Kem CoBa LineTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AC0EA9F5E85B7DD0AD2DB3A14D79044 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161358618677B1D18D8C601647C947E6 /* Pods-Kem CoBa LineUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9790FF96C8F8792556F54C41E174F82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E81BFC891C042C260E987D522528877 /* Pods-Kem CoBa Line-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA128F2D1B3B4F97C569973F308653A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BAEA21E776D4A90AF5E658D2303F9B0 /* SwiftGifOrigin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B77DBF3219DD436009D6045F5339661 /* SwiftGifOrigin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5B6FDB2E3A6548C28A005E3EFD80E3 /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */;
+			buildPhases = (
+				631F43727973435DEDB8014FDE0A5DAC /* Sources */,
+				50E54BB1B25EEAC74D03F16E6F1DF59D /* Frameworks */,
+				FA128F2D1B3B4F97C569973F308653A8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftGifOrigin;
+			productName = SwiftGifOrigin;
+			productReference = C1AFBC561568162DD4E90A49A7693855 /* SwiftGifOrigin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E797D5D3B08AE1B49AEEC7C9E72AC45 /* Pods-Kem CoBa Line */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C1974FA89ED153332B901DFD36EDAE2 /* Build configuration list for PBXNativeTarget "Pods-Kem CoBa Line" */;
+			buildPhases = (
+				92F4EECE1E2241986A7A1ACF7562C8AA /* Sources */,
+				D4513DD58C259F0C8E40436F37F65B2B /* Frameworks */,
+				B9790FF96C8F8792556F54C41E174F82 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA52C9D145DEB4EFB55973E98C437045 /* PBXTargetDependency */,
+			);
+			name = "Pods-Kem CoBa Line";
+			productName = "Pods-Kem CoBa Line";
+			productReference = F3A662DAE02887EA5AEABD250806DB3C /* Pods_Kem_CoBa_Line.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F043EE7DE5AC911FFB040D5805AB88D /* Pods-Kem CoBa LineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CF1CA8D814DDBCD2BC5655D73654A56 /* Build configuration list for PBXNativeTarget "Pods-Kem CoBa LineTests" */;
+			buildPhases = (
+				3E54CBEB1BAC9A1DE5D4FB71877B383D /* Sources */,
+				9FD764231B9C13E8086BEC0F46D703C4 /* Frameworks */,
+				00E800A799459843D094A6F81FD2ACEB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Kem CoBa LineTests";
+			productName = "Pods-Kem CoBa LineTests";
+			productReference = 029DBC858FA7FC774DEAC8547FF21D82 /* Pods_Kem_CoBa_LineTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		980FA0EA740EE52B6B1171F1066080FC /* Pods-Kem CoBa LineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8766DBAE2A2B62FC1A50737F17E58FDE /* Build configuration list for PBXNativeTarget "Pods-Kem CoBa LineUITests" */;
+			buildPhases = (
+				87CA020691241DC61D9DF9D467E1D91C /* Sources */,
+				6F557EA9EBEF4B1FC235571A78FEC92F /* Frameworks */,
+				5AC0EA9F5E85B7DD0AD2DB3A14D79044 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Kem CoBa LineUITests";
+			productName = "Pods-Kem CoBa LineUITests";
+			productReference = CCA99ECA827CE15ADAB24F9CBEEBDE57 /* Pods_Kem_CoBa_LineUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 922C1D4D4619D2051B9A8E25EB5D0406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E797D5D3B08AE1B49AEEC7C9E72AC45 /* Pods-Kem CoBa Line */,
+				8F043EE7DE5AC911FFB040D5805AB88D /* Pods-Kem CoBa LineTests */,
+				980FA0EA740EE52B6B1171F1066080FC /* Pods-Kem CoBa LineUITests */,
+				4B77DBF3219DD436009D6045F5339661 /* SwiftGifOrigin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E54CBEB1BAC9A1DE5D4FB71877B383D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3AA1C85DBB5EE272C2B09BD9E120C9 /* Pods-Kem CoBa LineTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631F43727973435DEDB8014FDE0A5DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4557523AA4B657E81F96BFEDC51D9A /* SwiftGifOrigin-dummy.m in Sources */,
+				31D4E9141F08D64B133AC1CE921A4669 /* UIImage+Gif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CA020691241DC61D9DF9D467E1D91C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9197EBDA9C48655C2CB7D78FF5679D10 /* Pods-Kem CoBa LineUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F4EECE1E2241986A7A1ACF7562C8AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A708BEA9753D2EF68E98380F459416E /* Pods-Kem CoBa Line-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA52C9D145DEB4EFB55973E98C437045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGifOrigin;
+			target = 4B77DBF3219DD436009D6045F5339661 /* SwiftGifOrigin */;
+			targetProxy = 952CAB25FD3E7591465221CDE739E89E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05EC7E44A95BA0ECE9F3085BA01F4EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E7343B4623BF9ACC81098BFF577B13 /* SwiftGifOrigin.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGifOrigin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftGifOrigin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		137FC1E3624FAFCEEEDF9CD6435B10DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E56C145A1EE94EB35223059EFF4F73 /* Pods-Kem CoBa LineUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kem CoBa LineUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kem CoBa LineUITests/Pods-Kem CoBa LineUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Kem_CoBa_LineUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41EF7CEF2FB3ACC9DE997FB4C0206E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25E8118A4C0000666B4549DAA5D53316 /* Pods-Kem CoBa LineTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kem CoBa LineTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kem CoBa LineTests/Pods-Kem CoBa LineTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Kem_CoBa_LineTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46EE69AF77A148AF92860F097B5698B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		66FBD1B8E0114AB51C9D13CF9DD06125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB8F8B9BED0933177737A2FAAE32B5B /* Pods-Kem CoBa LineTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kem CoBa LineTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kem CoBa LineTests/Pods-Kem CoBa LineTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Kem_CoBa_LineTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73AC903B0D981A61AA51F385149DE217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31CA7653C37037097CF875C51235B93B /* Pods-Kem CoBa Line.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kem CoBa Line/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kem CoBa Line/Pods-Kem CoBa Line.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Kem_CoBa_Line;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76732112D3E4718382F83614A11514AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BEAFA5864675E1418B74BEC06F67354 /* Pods-Kem CoBa LineUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kem CoBa LineUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kem CoBa LineUITests/Pods-Kem CoBa LineUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Kem_CoBa_LineUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A156876A8824526ED495550DF098FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C08B9D29C62AE2C1B280310A62F96FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E7343B4623BF9ACC81098BFF577B13 /* SwiftGifOrigin.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGifOrigin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftGifOrigin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7ED0682593A895AB585FFE0BC0A03C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC07348677197C7B7FD76CC594ABC8FE /* Pods-Kem CoBa Line.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kem CoBa Line/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kem CoBa Line/Pods-Kem CoBa Line.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Kem_CoBa_Line;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CF1CA8D814DDBCD2BC5655D73654A56 /* Build configuration list for PBXNativeTarget "Pods-Kem CoBa LineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FBD1B8E0114AB51C9D13CF9DD06125 /* Debug */,
+				41EF7CEF2FB3ACC9DE997FB4C0206E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EE69AF77A148AF92860F097B5698B1 /* Debug */,
+				7A156876A8824526ED495550DF098FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C1974FA89ED153332B901DFD36EDAE2 /* Build configuration list for PBXNativeTarget "Pods-Kem CoBa Line" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7ED0682593A895AB585FFE0BC0A03C3 /* Debug */,
+				73AC903B0D981A61AA51F385149DE217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F5B6FDB2E3A6548C28A005E3EFD80E3 /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C08B9D29C62AE2C1B280310A62F96FAD /* Debug */,
+				05EC7E44A95BA0ECE9F3085BA01F4EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8766DBAE2A2B62FC1A50737F17E58FDE /* Build configuration list for PBXNativeTarget "Pods-Kem CoBa LineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137FC1E3624FAFCEEEDF9CD6435B10DB /* Debug */,
+				76732112D3E4718382F83614A11514AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
